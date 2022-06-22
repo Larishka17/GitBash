@@ -1,0 +1,268 @@
+TXT
+
+1. Create an external repository called TXT  ===  https://github.com/Larishka17 -> Click on your avatar -> Click on «Your repositories» -> Click «New» button -> Repository name* - TXT; click «Public» checkbox; click on «Add a README file» checkbox -> Click «Create repository» button
+
+ 2. Clone TXT repository to local machine === git clone https://github.com/Larishka17/TXT.git 
+
+ 3. Create file inside local TXT “new.txt”. === touch new.txt
+
+ 4. Add file under git === git add new.txt
+
+ 5. Commit file === git commit -m «first task» 
+
+ 6. Push File to External GitHub Repository === git push 
+
+ 7. Edit the contents of the “new.txt” file - write information about yourself (full name, age, number of pets, future desired salary). Write everything in TXT format === vim new.txt -> I (Insert) -> 
+Full name: Larina Vasilieva
+Age: 25
+Number of pets: 0
+Future desired salary: 1500 euro 
+-> Esc -> :wq -> Enter 
+
+ 8. Push changes to an external repository === git status -> git add new.txt -> git commit -m «file with changes» -> git push
+
+ 9. Create file preferences.txt === touch preferences.txt
+
+ 10. Add information about your preferences to the preferences.txt file (favourite movie, favourite series, favourite food, favourite season, country you would like to visit) in TXT format === vim preferences.txt-> I (Insert) -> 
+Favourite movie: "1+1"
+Favourite series: «Office»
+Favourite food: Pasta with cheese
+Favourite season: Summer
+Country you would like to visit: South Korea 
+-> Esc -> :wq -> Enter 
+
+ 11. Create file skills.txt (=== touch skills.txt) add information about the skills that will be studied on the course in TXT format === vim skills.txt-> I (Insert) -> 
+Skills:
+- SDLC, STLC
+- JSON structure
+- XML structure 
+- API testing 
+- Removing and reading logs
+- Postman, Fidler
+- VPN
+- Dev Tools
+- Mobile testing
+- Building iOS applications on XCode
+- Interception of mobile traffic (sniffing) via Charles
+- Proxy setting on IOS and Android
+- Commands line (terminal) Linux Ubuntu. Copying, creating, viewing, moving files on servers without a graphical interface
+- Bash scripting, automation of routine tasks on the server
+- Access to remote servers
+- SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)
+- Git
+- Jmeter
+- Scrum Development Methodology 
+- Python. Creation of own client-server application
+-> Esc -> :wq -> Enter
+
+ 12. Make a commit in one line === git add. && git commit -m «add & change» 
+
+ 13. Send 2 files at once to an external repository === git push
+
+ 14. Create a bug_report.txt file on the web interface === My profile -> Repositories -> Click «TXT» -> Click «Add file» button -> Click «Create new file» ->  add some text -> Click «Commit new file» button
+
+ 15. Make Commit changes (save) changes on the web interface ==== Click bug_report.txt -> Click «Edit this file» -> add some text in the file -> Click «Commit changes» 
+
+ 16. Modify the bug_report.txt file on the web interface, add a bug report in TXT format === Click bug_report.txt -> Click «Edit this file» -> add some text in the file:
+Headline: Left button: The name "Square" is out of specification
+Severity: Minor
+Environment: Windows 10 pro 64-bit
+
+Description:
+1.Open the application "Calculator"
+2. Check the name of the left button
+
+Result: left button is called "Square"
+Expected result: left button name is "Square root"
+Attachments: see mistake_2.png
+
+ 17. Make Commit changes (save) changes on the web interface === -> Click «Commit changes» button
+
+ 18. Synchronise external and local TXT repository === (terminal) git pull 
+
+
+
+
+JSON
+ 4. 1. Create an external repository called JSON === https://github.com/Larishka17 -> Click on your avatar -> Click on «Your repositories» ->Click «New» button -> Repository name* - JSON; click «Public» checkbox; click on «Add a README file» checkbox -> Click «Create repository» button
+
+ 5. Clone JSON repository to local machine === git clone https://github.com/Larishka17/JSON.git 
+
+ 6. Create file inside local JSON “new.json” === touch new.json
+
+ 7. Add file under git === git add new.json 
+
+ 8. Commit file === git commit -m "new file"
+
+ 9. Push File to External GitHub Repository === git push
+
+ 10. Edit the content of the “new.json” file - write information about yourself (full name, age, number of pets, future desired salary). Write everything in JSON format === vim new.json -> I(Insert) ->
+{
+"name":"Larina",
+"age": 25,
+"numbers_of_pets": 0,
+"future_desired_salary": "1500 euro"
+}
+->Esc -> :wq -> Enter 
+
+ 11. Push changes to an external repository === git commit -a -m «new file with changes» -> git push
+
+ 12. Create file preferences.json === touch preferences.json 
+
+ 13. In the preferences.json file, add information about your preferences (Favourite movie, favourite series, favourite food, favourite season, country you would like to visit) in JSON format === vim preferences.json ->I (Insert) ->
+{
+"FavouriteMovie":"What We Do in the shadows",
+"FavouriteSeries":"Office",
+"FavouriteFood":"Chicken",
+"FavouriteTimeOfYear":"Summer",
+"Country_you_would_like_to_visit":"China"
+}
+-> Esc -> :wq -> Enter
+
+ 14. Create file skills.json (=== touch skills.json) add information about the skills that will be studied on the course in JSON format === vim skills.json ->
+I (Insert) ->
+{
+"HardSkills": [
+	"SDLC",
+	"STLC",
+	"JSON structure",
+	"XML structure", 
+	"API testing", 
+	"Removing and reading logs",
+	"Postman, Fidler",
+	"VPN",
+	"Dev Tools",
+	"Mobile testing",
+	"Building iOS applications on XCode",
+	"Interception of mobile traffic via Charles",
+	"Proxy setting on IOS and Android",
+	"Linux Ubuntu terminal",
+	"Bash scripting, automation of routine tasks on the server",
+	"Access to remote servers",
+	"SQL Basics",
+	"Git",
+	"Jmeter",
+	"Scrum Development Methodology", 
+	"Creation of own client-server application"
+	]
+}
+-> Esc -> :wq -> Enter 
+
+ 15. Send 2 files at once to an external repository === git add. && git commit -m «added & modified»
+
+ 16. Create a bug_report.json file on the web interface  === My profile -> Repositories -> Click «JSON» -> Click «Add file» button -> Click «Create new file» -> Name your file - bug_report.json -> Click «Commit new file» button
+
+ 17. Make Commit changes (save) changes on the web interface === Click bug_report.json -> Click «Edit this file» -> add some text in the file -> Click «Commit changes» button
+
+ 18. Modify the bug_report.json file on the web interface, add a bug report in JSON format === Click bug_report.json -> Click «Edit this file» -> add some text in the file 
+{
+"Headline": "Result: Entering value X=-0 and clicking Square button - no error message",
+"Severity": "Average",
+"Environment": "Windows 10 pro x64",
+Description: [
+    "1.Open the application "Calculator"",
+    "2. Enter in line X= value: -0",
+    «3.Click the «Square» button"
+    ],
+"Result": "When calculating the square root of -0, "Calculator" returns the value 0, no error message",
+"Expected_result": "Entering any negative number and clicking the "Square" button should result in an error message that reads: "The entered number is negative. Please, enter a positive number",
+"Attachments": "see mistake_1.png"
+}
+
+ 19. Make Commit changes (save) changes on the web interface === Click «Commit changes» button
+
+ 20. Synchronise external and local JSON repository === (terminal) git pull
+
+
+
+
+XML
+ 21. 1. Create an external repository called XML === https://github.com/Larishka17 -> Click on your avatar -> Click on «Your repositories» -> Click «New» button -> Repository name* - XML; click «Public» checkbox; click on «Add a README file» checkbox -> Click «Create repository» button
+
+ 22. Clone XML repository to local machine === git clone https://github.com/Larishka17/XML.git 
+
+ 23. Create file inside local XML “new.xml” === touch new.xml
+
+ 24. Add file under git === git add new.xml
+
+ 25. Commit file === git commit -m "new file"
+
+ 26. Push File to External GitHub Repository === git push
+
+ 27. Edit the content of the “new.xml” file - write information about yourself (name, age, number of pets, future desired salary). Write everything in XML format === vim new.json -> I(Insert) ->
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <name>Larina</name>
+    <age>25</age>
+    <numbers_of_pets>0</numbers_of_pets>
+    <future_desired_salary>1500 euro</future_desired_salary>
+</root>
+->Esc -> :wq -> Enter
+
+ 28. Push changes to an external repository === git commit -a -m «new file with changes» -> git push
+
+ 29. Create file preferences.xml === touch preferences.xml
+
+ 30. In the preferences.xml file, add information about your preferences (Favourite movie, favourite series, favourite food, favourite season, side you would like to visit) in XML format === vim preferences.xml -> I (Insert) ->
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <FavouriteMovie>What We Do in the shadows</FavouriteMovie>
+    <FavouriteSeries>Office</FavouriteSeries>
+    <FavouriteFood>Chicken</FavouriteFood>
+    <FavouriteTimeOfYear>Summer</FavouriteTimeOfYear>
+    <Country_you_would_like_to_visit>China</Country_you_would_like_to_visit>
+</root>
+->Esc -> :wq -> Enter
+
+ 31. Create a skills.xml file (touch skills.xml) add information about the skills that will be studied on the course in XML format === vim skills.xml -> I (Insert) ->
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <HardSkills>SDLC</HardSkills>
+    <HardSkills>STLC</HardSkills>
+    <HardSkills>JSON structure</HardSkills>
+    <HardSkills>XML structure</HardSkills>
+    <HardSkills>API testing</HardSkills>
+    <HardSkills>Removing and reading logs</HardSkills>
+    <HardSkills>Postman, Fidler</HardSkills>
+    <HardSkills>VPN</HardSkills>
+    <HardSkills>Dev Tools</HardSkills>
+    <HardSkills>Mobile testing</HardSkills>
+    <HardSkills>Building iOS applications on XCode</HardSkills>
+    <HardSkills>Interception of mobile traffic via Charles</HardSkills>
+    <HardSkills>Proxy setting on IOS and Android</HardSkills>
+    <HardSkills>Linux Ubuntu terminal</HardSkills>
+    <HardSkills>Bash scripting, automation of routine tasks on the server</HardSkills>
+    <HardSkills>Access to remote servers</HardSkills>
+    <HardSkills>SQL Basics</HardSkills>
+    <HardSkills>Git</HardSkills>
+    <HardSkills>Jmeter</HardSkills>
+    <HardSkills>Scrum Development Methodology</HardSkills>
+    <HardSkills>Creation of own client-server application</HardSkills>
+</root>
+->Esc -> :wq -> Enter
+
+ 32. Make a commit in one line === git add. && git commit -m «added & changed»
+
+ 33. Send 2 files at once to an external repository === git push
+
+ 34. Create a bug_report.xml file on the web interface === My profile -> Repositories -> Click «XML» -> Click «Add file» button -> Click «Create new file» button -> Name your file - bug_report.xml -> Click «Commit new file» button
+
+ 35. Make Commit changes (save) changes on the web interface === Click bug_report.xml -> Click «Edit this file» -> add some text in the file -> Click «Commit changes» button
+
+ 36. Modify the bug_report.xml file on the web interface, add a bug report in XML format === Click bug_report.xml -> Click «Edit this file» -> add some text in the file 
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <Headline>Result: when entering numbers greater than 256 and clicking the Square button, the result is not true</Headline>
+    <Severity>Major</Severity>
+    <Environment>Windows 10 pro x64</Environment>
+    <Description>1.Open Calculator</Description>
+    <Description>2.Enter X=257</Description>
+    <Description>3.Click the Square button</Description>
+    <Result>When calculating the square root of any number greater than 256 - for example 257 - Calculator shows an incorrect value as a result - 20.0312</Result>
+    <Expected_result>When calculating the square root of 257, the result should be 16.0312</Expected_result>
+    <Attachments>see mistake_3.png</Attachments>
+</root>
+
+ 37. Make Commit changes (save) changes on the web interface === Click «Commit changes» button
+
+ 38. Synchronise external and local XML repository === (terminal) git pull
